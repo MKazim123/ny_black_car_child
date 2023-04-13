@@ -428,7 +428,7 @@ jQuery(document).ready(function($) {
         var scriptTag = document.createElement('script')
         scriptTag.id = 'google-map-api'
         scriptTag.setAttribute('type','text/javascript')
-        scriptTag.setAttribute('src','https://maps.googleapis.com/maps/api/js?key=AIzaSyDoWJVX4Jn9S-4TXCrOH2jLInbEyFHbSfs&libraries=places&callback=PlaceAutocompleteSearch')
+        scriptTag.setAttribute('src','https://maps.googleapis.com/maps/api/js?key={API_KEY}&libraries=places&callback=PlaceAutocompleteSearch')
         scriptTag.setAttribute('async',true)
         scriptTag.setAttribute('defer',true)
         $('body').append(scriptTag)
